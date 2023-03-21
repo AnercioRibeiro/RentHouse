@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/RentHouse/houserent.db
+/RentHouse/houserent.db-shm
+/RentHouse/houserent.db-wal

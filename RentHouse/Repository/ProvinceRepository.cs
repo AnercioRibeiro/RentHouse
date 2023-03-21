@@ -4,20 +4,15 @@ using RentHouseAPI.Repository.IRepository;
 
 namespace RentHouseAPI.Repository
 {
-    public class OwnerRepository : IOwnerRepository
+    public class ProvinceRepository : Repository<Province>, IProvinceRepository
     {
         private readonly ApplicationDbContext _db;
-        public OwnerRepository(ApplicationDbContext db)
+        public ProvinceRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
 
-        public Task<Owner> GetOwnerByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IReadOnlyList<Owner>> GetOwnersAsync()
+        public Task<Province> UpdateProvinceAsync(Province province)
         {
             throw new NotImplementedException();
         }

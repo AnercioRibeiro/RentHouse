@@ -1,10 +1,10 @@
-﻿using RentHouseAPI.Models;
-
-namespace RentHouseAPI.Specification
+﻿namespace RentHouseAPI.Models
 {
     public class Publication : BaseEntity
     {
+        public string Name { get; set; }
         public string Identifier { get; set; }
+        public string PictureUrl { get; set; }
         public string Description { get; set; }
         public string Address { get; set; }
         public string Tipology { get; set; }
@@ -14,8 +14,12 @@ namespace RentHouseAPI.Specification
         public string Longitude { get; set; }
         public bool Elevator { get; set; }
         public string Details { get; set; }
-        public string PaymentPeriodicy {get; set; }
-        public Double Price { get; set; }
+        public string PaymentPeriodicy { get; set; }
+        public decimal Price { get; set; }
+        public Province Province { get; set; }
+        public int PublicationProvinceId { get; set; }
+        public County County { get; set; }
+        public int PublicationCountyId { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
     }

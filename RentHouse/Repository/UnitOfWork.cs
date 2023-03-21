@@ -10,13 +10,15 @@ namespace RentHouseAPI.Repository
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
-            OwnerRepository = new OwnerRepository(db);
-            RealStateRepository = new PublicationRepository(db);
+            ProvinceRepository = new ProvinceRepository(db);
+            PublicationRepository = new PublicationRepository(db);
+            CountyRepository = new CountyRepository(db);
 
 
         }
 
-        public IOwnerRepository OwnerRepository { get; private set; }
-        public IPublicationRepository RealStateRepository { get; private set; }
+        public IProvinceRepository ProvinceRepository { get; private set; }
+        public IPublicationRepository PublicationRepository { get; private set; }
+        public ICountyRepository CountyRepository { get; private set; }
     }
 }
