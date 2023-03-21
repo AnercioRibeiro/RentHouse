@@ -1,5 +1,5 @@
+using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using RentHouseAPI.Data;
 using RentHouseAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);

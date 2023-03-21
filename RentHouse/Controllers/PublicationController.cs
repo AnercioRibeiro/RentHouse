@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
+using Core.IRepository;
+using Core.Models;
+using Core.Specification;
 using Microsoft.AspNetCore.Mvc;
 using RentHouseAPI.DTOs;
 using RentHouseAPI.Helpers;
-using RentHouseAPI.Models;
-using RentHouseAPI.Repository.IRepository;
-using RentHouseAPI.Specification;
+
 
 namespace RentHouseAPI.Controllers
 {

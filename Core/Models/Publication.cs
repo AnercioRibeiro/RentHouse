@@ -1,12 +1,11 @@
-﻿namespace RentHouseAPI.DTOs
+﻿namespace Core.Models
 {
-    public class PublicationToReturnDTO
+    public class Publication : BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Identifier { get; set; }
-        public string Description { get; set; }
         public string PictureUrl { get; set; }
+        public string Description { get; set; }
         public string Address { get; set; }
         public string Tipology { get; set; }
         public string Floor { get; set; }
@@ -17,8 +16,10 @@
         public string Details { get; set; }
         public string PaymentPeriodicy { get; set; }
         public decimal Price { get; set; }
-        public string Province { get; set; }
-        public string Country { get; set; }
-
+        public Province Province { get; set; }
+        public int PublicationProvinceId { get; set; }
+        public County County { get; set; }
+        public int PublicationCountyId { get; set; }
+        
     }
 }

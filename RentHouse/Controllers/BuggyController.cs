@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using RentHouseAPI.Data;
+﻿using Infrastructure.Data;
+using Microsoft.AspNetCore.Mvc;
 using RentHouseAPI.Errors;
 
 namespace RentHouseAPI.Controllers

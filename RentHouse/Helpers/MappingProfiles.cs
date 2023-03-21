@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Core.Models;
 using RentHouseAPI.DTOs;
-using RentHouseAPI.Models;
 
 namespace RentHouseAPI.Helpers
 {

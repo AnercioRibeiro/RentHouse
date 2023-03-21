@@ -1,0 +1,75 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Luanda"
+  },
+  {
+    "Id": 2,
+    "Name": "Benguela"
+  },
+  {
+    "Id": 3,
+    "Name": "Malanje"
+  },
+  {
+    "Id": 4,
+    "Name": "Lunda Sul"
+  },
+  {
+    "Id": 5,
+    "Name": "Bié"
+  },
+  {
+    "Id": 6,
+    "Name": "Bengo"
+  },
+  {
+    "Id": 7,
+    "Name": "Cabinda"
+  },
+  {
+    "Id": 8,
+    "Name": "Cuando-Cubango"
+  },
+  {
+    "Id": 9,
+    "Name": "Cuanza Norte"
+  },
+  {
+    "Id": 10,
+    "Name": "Cunene"
+  },
+  {
+    "Id": 11,
+    "Name": "Benguela"
+  },
+  {
+    "Id": 12,
+    "Name": "Huambo"
+  },
+  {
+    "Id": 13,
+    "Name": "Huíla"
+  },
+  {
+    "Id": 14,
+    "Name": "Lunda Norte"
+  },
+  {
+    "Id": 15,
+    "Name": "Moxico"
+  },
+  {
+    "Id": 16,
+    "Name": "Namibe"
+  },
+  {
+    "Id": 17,
+    "Name": "Uíge"
+  },
+  {
+    "Id": 18,
+    "Name": "Zaire"
+  }
+
+]

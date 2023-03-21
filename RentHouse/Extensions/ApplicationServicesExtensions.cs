@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RentHouseAPI.Data;
-using RentHouseAPI.Repository.IRepository;
-using RentHouseAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 using RentHouseAPI.Errors;
+using Infrastructure.Data.Repository;
+using Infrastructure.Data;
+using Core.IRepository;
 
 namespace RentHouseAPI.Extensions
 {
