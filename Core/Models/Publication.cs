@@ -17,9 +17,9 @@
         public string PaymentPeriodicy { get; set; }
         public decimal Price { get; set; }
         public Province Province { get; set; }
-        public int PublicationProvinceId { get; set; }
+        public int ProvinceId { get; set; }
         public County County { get; set; }
-        public int PublicationCountyId { get; set; }
+        public int CountyId { get; set; }
         
     }
 }

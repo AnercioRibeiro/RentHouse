@@ -7,8 +7,8 @@ namespace Core.Specification
         public PublicationWithFiltersForCountSpecification(PublicationSpecParams publicationParams)
            : base(x =>
            (string.IsNullOrEmpty(publicationParams.Search) || x.Name.ToLower().Contains(publicationParams.Search)) &&
-           (!publicationParams.ProvinceId.HasValue || x.PublicationProvinceId == publicationParams.ProvinceId) &&
-           (!publicationParams.CountyId.HasValue || x.PublicationCountyId == publicationParams.CountyId))
+           (!publicationParams.ProvinceId.HasValue || x.ProvinceId == publicationParams.ProvinceId) &&
+           (!publicationParams.CountyId.HasValue || x.CountyId == publicationParams.CountyId))
         {
 
         }

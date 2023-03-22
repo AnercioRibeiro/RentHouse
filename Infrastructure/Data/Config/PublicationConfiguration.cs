@@ -19,9 +19,9 @@ namespace Infrastructure.Data.Config
             
             builder.Property(p => p.PictureUrl).IsRequired();
             builder.HasOne(b => b.Province).WithMany()
-                .HasForeignKey(p => p.PublicationProvinceId);
+                .HasForeignKey(p => p.ProvinceId);
             builder.HasOne(t => t.County).WithMany()
-                .HasForeignKey(p => p.PublicationCountyId);
+                .HasForeignKey(p => p.CountyId);
 
         }
     }
