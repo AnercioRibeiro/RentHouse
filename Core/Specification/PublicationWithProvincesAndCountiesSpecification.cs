@@ -16,18 +16,18 @@ namespace Core.Specification
 
             if (!string.IsNullOrEmpty(publicationParams.Sort))
             {
-                switch (publicationParams.Sort)
-                {
-                    case "priceAsc":
-                        AddOrderBy(p => p.Price);
-                        break;
-                    case "priceDesc":
-                        AddOrderByDescending(p => p.Price);
-                        break;
-                    default:
-                        AddOrderBy(n => n.Name);
-                        break;
-                }
+                //switch (publicationParams.Sort)
+                //{
+                //    case "priceAsc":
+                //        AddOrderBy(p => p.Price);
+                //        break;
+                //    case "priceDesc":
+                //        AddOrderByDescending(p => p.Price);
+                //        break;
+                //    default:
+                //        AddOrderBy(n => n.Name);
+                //        break;
+                //}
             }
         }
         public PublicationWithProvincesAndCountiesSpecification(int id) : base(x => x.Id == id)
